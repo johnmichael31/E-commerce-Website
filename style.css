@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar .logo{
+    margin-left: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: navy;
+    float:left;
+    display: block;
+}
+#navbar{
+    background: rgb(246, 248, 250);
+    border-bottom:1px solid #e0e0e0;
+    overflow: auto;
+}
+#navbar ul{
+    margin-right: 40px;
+    list-style: none;
+    float: right;
+}
+#navbar li{
+    float: left;
+}
+
+#navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 30px;
+    font-size: 18px;
+    color: rgb(11, 11, 63);
+
+}
+
+#navbar a:hover{
+    color: red;
+}
+
+/* End of Nav bar */
+
+/* hero section */
+#hero .banner h1{
+    font-size: 35px;
+    color:black;
+    z-index: 100;
+}
+#hero .banner p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+#hero span{
+    color:red;
+}
+#hero{
+    height:600px;
+    opacity: 0.9;
+    background:url(images/marvin-meyer-SYTO3xs06fU-unsplash.jpg) no-repeat ;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 3em;
+}
+#hero a{
+    display: block;
+    color:#fff;
+    border: 1px solid #fff;
+    width:15%;
+    margin:15px auto;
+    text-decoration: none;
+    padding:0px 15px;
+}
+
+#hero .btnwithstyle:hover{
+    background-color: white;
+    color: black;
+}
+
+/* End of Container */
+
+/* Card */
+.main-container{
+    background: #beb9b95d;
+}
+
+.main-container #card-container{
+    height: 550px;
+    max-width: 785px;
+    margin: 0 auto;
+}
+
+.m-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    padding-top:40px;
+    text-align: center;
+}
+
+.what{
+    color: rgb(107, 214, 0);
+}
+
+#card-container .card{
+    margin-top: 40px;
+    width: 240px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 10px  #381010;
+    padding: 10px;
+}
+
+.card h1{
+    margin: 10px 0;
+}
+
+.card p{
+    line-height: 1.1em;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* end of card */
+
+/* Footer */
+footer{
+    padding-top: 20px;
+    background-color: #e0e0e0;
+    height: 50px;
+    text-align: center;
+}
